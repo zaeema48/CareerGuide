@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h2{
+            font-size: 300%;
+        }
+  .heading{
+            border: 1px solid black;
+  background-color: rgb(170, 128, 187);
+  padding-top: 5px;
+  padding-right: 70px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+ }
+ 
+ .img{
+    width: 300px;
+  border: 15px solid rgb(175, 111, 194);
+  padding: 100px;
+  margin: 400px;
+ }
+ .next{
+     font-size: 200%;
+     text-decoration: solid;
+     /* padding: 500px; */
+     margin: 550px;
+     background-color: rgb(191, 173, 207);
+     
+
+ }
+ next:hover{
+     background-color: blueviolet;
+     color: rgb(247, 238, 238);
+ }
+ .cto{
+     font-size: 125%;
+     margin: 40px;
+     padding: 25px;
+ }
+ .h{
+     font-size: 200%;
+     margin: 30px;
+ }
+ .v{
+     margin: 400px;
+    border-color: black;
+    
+ }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Guide | Home</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header><div class="heading">
+    <h1><i>Welcome to Career Guide</h1></i></div>
+</header>
+<div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="questionaire.html">Quiz</a>
+    <a href="#about">About</a>
+    <a href="#User">User</a>
+  </div>
+
+ 
+<main>
+    <style>
+        body {
+          background-image: url('photos/1.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover; 
+        }
+        </style>
+    <hr>
+    <p><b><div class="h">
+        Hello! In this career guide, few questions will be asked 
+        based on which a result will be shown that will tell you
+        how much the given career is suitable for you. You are 
+        required to answer the questions honestly. Thankyou. <br></div>
+    </p></b><br><br><br><br><br><br><br><br><br><br>
+
+    <a href="questionaire.html" class="next">Next &raquo;</a>
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="v"><video src="videos/v1.mp4" width="500" controls loops muted autoplay poster="photos/2.png"></video></div>
+    <br>
+    <!-- login box -->
+    
+    <fieldset>
+        <div id="User">
+            <legend>
+                <h3>User</h3>
+            </legend> 
+        </div>
+        <div>Name:* <input type="text" name="Name" id="name" required></div>
+       <p> Education: *<select placeholder="Select Below" name="Education" id="Education" required>
+           <option value="Grade">12th grade</option> <br>
+           <option value="Graduation">Graduation</option> <br> 
+       </p>
+      
+        
+    </fieldset>
+    <div style="background-color: blue;">
+        <input type="submit" value="Submit"> &nbsp; &nbsp; &nbsp;
+        <input type="Reset">
+    </div>
+
+    <div class="cto"><h3>
+        Check this out!
+    </h3>
+    <ol type="1">
+        <li> <a href="https://www.youtube.com/watch?v=iOsD2N96CU0">Chasing dreams and beginning again </a></li>
+        
+        <li><a href="https://www.youtube.com/watch?v=8Swu8iiuFx4">How to Find Your Passion and Make it Your Job</a></li>
+
+        <li><a href="https://www.youtube.com/watch?v=4e6KSaCxcHs&t=2s&ab_channel=TEDxTalks">The Psychology of Career Decisions</a></li>
+        
+    </div>
+    </ol>
+    <section>
+        <div class="img">
+        <h2> 
+             Created by:
+        </h2><br><br><br>
+        <img src="photos/me.jpeg" alt="Error" width="150" style="border:10px inset rgb(52, 6, 61)">
+        <h3>Zaeema Khanam</h3>
+    
+        <p> 
+            Hello! I am Zaeema, I am a b.Tech CSE student,<br>
+            currently in my 6th semester.<br>
+            This is my first project in web development. <br>
+        </p>
+    </div>
+    </section>
+</main>
+<div class="foot">
+<footer>
+    <a href="#">Contact us</a> &nbsp;
+    <a href="#">FAQ</a> &nbsp;
+    <a href="#">Terms of use</a> &nbsp;
+    <a href="#">&copy; 2022 | Career Guide</a> 
+</div>
+</footer>
+<script>
+    localStorage.setItem('test','val')
+</script>
+</body>
+</html>
